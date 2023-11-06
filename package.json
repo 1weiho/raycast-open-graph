@@ -6,7 +6,8 @@
   "icon": "command-icon.png",
   "author": "davidho0403",
   "categories": [
-    "Developer Tools"
+    "Developer Tools",
+    "Web"
   ],
   "license": "MIT",
   "commands": [
