@@ -87,11 +87,15 @@ export default function Command(props: LaunchProps<{ arguments: Arguments.OpenGr
           <Detail.Metadata.Label title="twitter:title" text={openGraph?.twitter.title} />
           <Detail.Metadata.Label title="twitter:description" text={openGraph?.twitter.description} />
           <Detail.Metadata.Label title="twitter:card" text={openGraph?.twitter.card} />
-          <Detail.Metadata.Link
-            title="twitter:image"
-            target={openGraph?.twitter.image as string}
-            text={openGraph?.twitter.image as string}
-          />
+          {openGraph.twitter.image !== "none" ? (
+            <Detail.Metadata.Link
+              title="twitter:image"
+              target={openGraph?.twitter.image as string}
+              text={openGraph?.twitter.image as string}
+            />
+          ) : (
+            <Detail.Metadata.Label title="twitter:image" text={openGraph?.twitter.image} />
+          )}
         </Detail.Metadata>
       }
     />
