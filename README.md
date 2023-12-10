@@ -2,8 +2,6 @@
 
 # Open Graph
 
-<a title="Install open-graph Raycast Extension" href="https://www.raycast.com/davidho0403/open-graph"><img src="https://www.raycast.com/davidho0403/open-graph/install_button@2x.png?v=1.1" height="64" alt="" style="height: 64px;"></a>
-
 This is a simple Raycast extension that allows users to quickly check the Open Graph (OG) meta tags of any webpage. This tool is especially useful for developers who need to verify if the right OG tags are rendered for different pages during development, or for anyone who wishes to preview the thumbnail or other OG tag information of a website.
 
 ## Setup:
